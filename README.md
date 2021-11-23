@@ -1,2 +1,5 @@
-# PROJETE_2019
+# PROJETE 2019
 Luva para o auxílio de atividades físicas, com o sensoriamento do batimento cardíaco e movimentação corpórea.
+O projeto contia 2 Arduinos Nanos que comunicavam entre sí usando o Serial, um era responsável pela leitura dos sensores e o outro era responsável pelo processamento e renderização das informações na tela OLED 128x64px.
+Nosso projeto tentava auxiliar o usuário por meio de uma seleção dos dias da semana que o usuário desejava se exercitar e o horário (ex. 17:30 - 19:00).
+A luva apresenta um menu como relógio, mostrando a hora, data e batimento cardíaco (em BPM), quando o horário programado estiver aproximando, irá surgir um aviso na tela, podendo escolher o tipo de exercício que irá ser realizado entre as opções sugeridas, os sensores iram medir se o usuário está realmente se movimentando, e se exercitando por meio dos sensores de batimento cardíaco e acelerômetro, se o usuário não comprisse com a rotina de exercício programada o projeto iria bloquear a internet como forma de castigo, usando um NodeMCU (nosso grupo perdeu a programação dele, juntamente com fotos e vídeos do funcionamento do projeto).
